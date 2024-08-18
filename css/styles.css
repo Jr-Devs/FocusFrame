@@ -1,0 +1,12 @@
+:root {
+  --black: #121212;
+  --white: #fff;
+  --brown: #bea69e;
+  --font-family: "DM Sans", sans-serif;
+}
+
+/* BU GENEL CONTAİNER, SAYFADAKİ ORTAYA HİZALI ALANLAR İÇİN BUNU KULLANMALISINIZ */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
