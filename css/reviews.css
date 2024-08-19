@@ -15,6 +15,10 @@
     font-size: 48px;
     line-height: 112%;
     letter-spacing: -0.04em;
+    transition: 0.33s;
+}
+.section-reviews-content h3:hover {
+    color: #bea69e;
 }
 .section-reviews-content-one {
     display: flex;
@@ -37,6 +41,12 @@
     align-items: center;
     gap: 10px;
 }
+.section-rev-student img {
+    transition: 0.33s;
+}
+.section-rev-student img:hover {
+    transform: scale(1.2);
+}
 .section-reviews-student-spec {
     display: flex;
     flex-direction: column;
@@ -46,6 +56,10 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 140%;
+    transition: 0.33s;
+}
+.section-reviews-student-spec h4:hover {
+    color: #bea69e;
 }
 .section-reviews-student-spec p {
     max-width: 570px;
@@ -54,12 +68,20 @@
     line-height: 129%;
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.5);
+    transition: 0.33s;
+}
+.section-reviews-student-spec p:hover {
+    color: #bea69e;
 }
 .section-student-stars ul {
     display: flex;
 }
 .section-student-stars ul li svg {
     fill: #bea69e;
+    transition: 0.33s;
+}
+.section-student-stars ul li svg:hover {
+    transform: scale(1.3);
 }
 .section-student-stars ul li .star-five {
     fill: #414141;

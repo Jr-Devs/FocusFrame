@@ -53,6 +53,22 @@
     gap: 20px;
     text-transform: uppercase;
 }
+.footer-social-links ul li{
+    transition: 0.33s;
+    text-shadow: none;
+}
+.footer-social-links ul li:hover{
+    color: #bea69e;
+    text-shadow: 2px 2px 4px white;
+}
+.footer-page-links ul li{
+    transition: 0.33s;
+    text-shadow: none;
+}
+.footer-page-links ul li:hover{
+    color: #bea69e;
+    text-shadow: 2px 2px 4px white;
+}
 .footer-contact {
     display: flex;
     flex-direction: column;
@@ -69,8 +85,6 @@
     width: 216px;
     max-width: 216px;
     height: 60px;
-}
-.footer-form-input-email::placeholder {
     padding-left: 20px;
 }
 .footer-form-input-button {
@@ -84,6 +98,12 @@
     font-size: 20px;
     line-height: 120%;
     text-align: center;
+    transition: 0.33s;
+}
+.footer-form-input-button:hover {
+    background-color: #bea69e;
+    color: #121212;
+    transform: scale(1.1) rotate(-10deg);
 }
 .footer-content-two {
     display: flex;
