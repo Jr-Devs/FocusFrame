@@ -1,0 +1,21 @@
+.block {
+  display: flex;
+  border-top: solid 1px rgba(255, 255, 255, 0.2);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  width: 1440px;
+  height: 112px;
+  align-items: center;
+}
+
+.block-content {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 108%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.block-content > span {
+  color: var(--brown);
+}
