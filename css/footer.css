@@ -1,0 +1,91 @@
+
+/* --------------FOOTER-------------- */
+
+.footer-background {
+    background-color: var(--black);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 50px 100px 25px;
+    gap: 50px;
+    background-image: url(../img/Graphic3x.png);
+    background-size: cover;
+}
+.footer-content-one {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 133px; 
+}
+.footer-logo-content-one {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.footer-logo-svg-box-svg {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.footer-connect-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-social {
+    display: flex;
+    gap: 100px;
+}
+.footer-social-links ul,
+.footer-page-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: uppercase;
+}
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+.footer-form {
+    display: flex;
+    gap: 16px;
+}
+.footer-form-input-email {
+    border: none;
+    border-radius: 12px;
+    width: 216px;
+    max-width: 216px;
+    height: 60px;
+}
+.footer-form-input-email::placeholder {
+    padding-left: 20px;
+}
+.footer-form-input-button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 12px;
+    background-color: #1d1d1d;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+}
+.footer-content-two {
+    display: flex;
+    justify-content: space-between;
+}

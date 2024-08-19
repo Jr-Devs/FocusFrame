@@ -1,0 +1,66 @@
+
+/* --------------REVİEWS-------------- */
+
+.section-reviews-background {
+    background-color: #121212;
+}
+.section-reviews-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 100px 150px;
+}
+.section-reviews-content h3 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 112%;
+    letter-spacing: -0.04em;
+}
+.section-reviews-content-one {
+    display: flex;
+    gap: 20px;
+}
+.section-reviews-cards {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    gap: 20px;
+}
+.section-reviews-card {
+    display: flex;
+    justify-content: space-between;
+}
+.section-rev-student {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.section-reviews-student-spec {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.section-reviews-student-spec h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+}
+.section-reviews-student-spec p {
+    max-width: 570px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.5);
+}
+.section-student-stars ul {
+    display: flex;
+}
+.section-student-stars ul li svg {
+    fill: #bea69e;
+}
+.section-student-stars ul li .star-five {
+    fill: #414141;
+}
