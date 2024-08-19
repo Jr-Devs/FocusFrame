@@ -1,9 +1,13 @@
-/* --------------FOOTER-------------- */
 
 @media (min-width:1280px) and (max-width:1439px) {
+
     .container {
         max-width: 1440px;
+        margin: 0 auto;
     }
+
+    /* --------------FOOTER-------------- */
+
     .footer-content {
         padding: 50px 100px 25px;
     }

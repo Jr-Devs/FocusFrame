@@ -1,12 +1,13 @@
 
 @media (min-width:375px) and (max-width:767px) {
 
-    /* --------------REVİEWS-------------- */
-
     .container {
         max-width: 767px;
         margin: 0 auto;
     }
+
+    /* --------------REVİEWS-------------- */
+
     .section-reviews-content {
         padding: 0 20px 100px;
     }
@@ -25,7 +26,7 @@
     /* --------------FOOTER-------------- */
 
     .footer-content {
-        padding: 50px 20px 25px;
+        padding: 40px 20px 25px;
     }
     .footer-content-one {
         display: flex;
