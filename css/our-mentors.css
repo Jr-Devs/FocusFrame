@@ -1,0 +1,36 @@
+.mentors-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.mentor{
+    flex-shrink: 1;
+}
+
+.mentor > img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 16px;
+}
+
+.mentor-name{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 114%;
+    text-align: center;
+    color: var(--white);
+}
+
+.mentor-exp{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
