@@ -1,0 +1,85 @@
+.our-courses{
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+}
+.courses-title-wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+.our-courses-text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: var(--white);
+    max-width: 565px;
+}
+.card-wrapper{
+    display:flex;
+    gap:20px;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    padding:32px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    width: 400px;
+    height: 452px;
+    background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+    perspective: 1000px; /* 3D görünüm için perspective ekledik */
+    transition: all 0.7s ease-in-out;
+}
+.card:hover,
+.card:focus{ 
+    transform: scale(1.1) rotate(10deg); /* Sağ kenar geri, sol kenar ileri hareket eder */
+    box-shadow: 0 0 20px rgba(255, 223, 0, 0.8); /* ışıltı efekti */
+    z-index: 1; /* Üstte kalmasını sağlar */
+    opacity: 1; /* Hover yapılan kartın opaklık değeri sabit kalır */
+    background: linear-gradient(180deg, var(--background) 50%, #060707 100%,);
+}
+
+.card-wrapper:hover .card {
+    opacity: 0.5; /* Diğer kartların opaklık değeri düşer */
+}
+
+.card-wrapper:hover .card:hover {
+    opacity: 1; /* Hover yapılan kartın opaklık değeri normal kalır */
+}
+
+.card-svg-content{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:32px;
+}
+.card-text{
+    color: rgba(255, 255, 255, 0.5);
+}
+.card-text-content .card-text{
+    font-size: 16px;
+}
+.card-svg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: #1d1d1d;
+}
+.icon-arrow-2{
+    fill:#D9D9D9;
+    border: 1px solid #000;
+}
+.card-title-content{
+    margin-bottom:200px;
+}
+.card-title{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 114%;
+    color: var(--white);
+}
