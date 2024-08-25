@@ -1,0 +1,12 @@
+.signUp-wrapper{
+    width: 480px;
+}
+
+.signUp-text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: var(--white);
+}

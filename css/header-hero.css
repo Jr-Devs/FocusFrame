@@ -2,8 +2,8 @@
   fill: var(--white);
 }
 .header-hero-background {
-  height: 910px;
   background-image: url(../img/Graphic.png);
+  padding-bottom: 150px;
 }
 .header {
   background-image: url(../img/Graphic.png);
@@ -15,6 +15,7 @@
   display: flex;
   gap: 20px;
   justify-content: center;
+  height: 60px;
 }
 
 .navv {
@@ -34,7 +35,6 @@
 
 .nav-button {
   border-radius: 12px;
-  padding: 16px 84px;
   width: 238px;
   background: var(--white);
 }
@@ -207,21 +207,17 @@
 }
 
 .hero-tut {
-  padding: 0 100px;
-  background-size: cover;
-  position: absolute;
-  top: 1;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
 }
 
 @media (max-width: 1280px) {
-  .header-hero-background {
-    height: 1120px;
+  .nav-list {
+    display: none;
   }
-  .hero {
+  .header {
+    padding-bottom: 40px;
+  }
+  .nav-button {
+    width: 186px;
   }
   .hero-wrapper {
     display: flex;

@@ -1,0 +1,44 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.img-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.about-us-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+.first-text-content {
+  max-width: 314px;
+}
+.second-text-content {
+  max-width: 276px;
+}
+.img-content {
+  border: 1px solid #000;
+  border-radius: 100px;
+  width: 560px;
+  height: 240px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: all 0.7s ease-in-out;
+}
+.img-content:hover {
+  box-shadow: unset;
+  border: unset;
+  transform: scale(0.8);
+}
+.img-content img {
+  width: 100%;
+  height: auto;
+  transition: all 0.7s ease-in-out;
+}
+.img-content:hover img {
+  transform: rotate(270deg) scale(0.9);
+}

@@ -1,0 +1,130 @@
+.footer-background {
+  background-color: var(--black);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  background-image: url(../img/Graphic.png);
+  background-size: auto;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 50px 100px 25px;
+  background-image: url(../img/Graphic.png);
+  background-size: auto;
+  gap: 50px;
+}
+.footer-content-one {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo-content-one {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer-logo-svg-box-svg {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.footer-connect-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-connect-list-item {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.footer-social {
+  display: flex;
+  gap: 100px;
+}
+.footer-social-links ul,
+.footer-page-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-transform: uppercase;
+}
+.footer-social-links ul li {
+  transition: 0.33s;
+  text-shadow: none;
+}
+.footer-social-links ul li:hover {
+  color: #bea69e;
+  text-shadow: 2px 2px 4px white;
+}
+.footer-page-links ul li {
+  transition: 0.33s;
+  text-shadow: none;
+}
+.footer-page-links ul li:hover {
+  color: #bea69e;
+  text-shadow: 2px 2px 4px white;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+.footer-form {
+  display: flex;
+  gap: 16px;
+}
+.footer-form-input-email {
+  border: none;
+  border-radius: 12px;
+  width: 216px;
+  max-width: 216px;
+  height: 60px;
+  padding-left: 20px;
+}
+.footer-form-input-button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 12px;
+  background-color: #1d1d1d;
+  color: var(--white);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  transition: 0.33s;
+}
+.footer-form-input-button:hover {
+  background-color: #bea69e;
+  color: #121212;
+  transform: scale(1.1) rotate(-10deg);
+}
+.footer-content-two {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copyright {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--white);
+}
+.footer-logo-privacy {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--white);
+}
